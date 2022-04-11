@@ -1,1 +1,3 @@
-console.log('sup dog')
+import load from './load.js';
+
+load()
