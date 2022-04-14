@@ -1,8 +1,28 @@
 export default function navbar() {
     const content = document.querySelector('#content')
-    const nav = document.createElement('div');
-    nav.style.display = 'flex';
-    nav.style.justifyContent = 'space-evenly';
+
+    const navbar = document.createElement('div')
+    navbar.classList.add('navbar')
+    navbar.style.display = 'flex';
+    navbar.style.flexDirection = 'row';
+    navbar.style.justifyContent = 'space-between'
+
+    const navStart = document.createElement('div')
+    navStart.classList.add('navbar-start');
+    navStart.style.display = 'flex';
+    navStart.style.justifyContent = 'flex-start';
+
+    const title = document.createElement('div');
+    title.classList.add('title')
+    title.innerHTML = 'BEST FRIEND';
+
+    navStart.appendChild(title);
+
+
+    const navEnd = document.createElement('div');
+    navEnd.classList.add('navbar-end')
+    navEnd.style.display = 'flex';
+    navEnd.style.justifyContent = 'flex-end';
 
     const home = document.createElement('div');
     const homeBtn = document.createElement('button');
@@ -22,8 +42,10 @@ export default function navbar() {
     contactBtn.classList.add('contactBtn')
     contact.appendChild(contactBtn);
 
-    nav.appendChild(home)
-    nav.appendChild(menu)
-    nav.appendChild(contact)
-    content.appendChild(nav)
+    navEnd.appendChild(home);
+    navEnd.appendChild(menu);
+    navEnd.appendChild(contact);
+    navbar.appendChild(navStart);
+    navbar.appendChild(navEnd);
+    content.appendChild(navbar);
 }
