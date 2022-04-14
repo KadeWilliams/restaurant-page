@@ -185,6 +185,7 @@ button {
 }
 
 button:hover {
+    cursor: pointer;
     /* color: #ff00d4; */
     color: rgb(0, 0, 0);
     background-color: #ff00d4;
