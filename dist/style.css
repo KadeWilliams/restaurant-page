@@ -138,6 +138,10 @@ html,
     font-family: 'Averia Serif Libre', cursive;
 }
 
+*::selection {
+    background: #00000089;
+}
+
 #content {
     height: 100vh;
     /* display: flex;
