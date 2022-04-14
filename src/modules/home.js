@@ -10,7 +10,7 @@ export default function home() {
     homeContent.classList.add('homeContent')
 
     const welcome = document.createElement('div');
-    welcome.innerHTML = 'Meet your new Best Friend!'
+    welcome.innerHTML = 'Thank you for being our Best Friend!'
     welcome.classList.add('welcome');
     const roy = document.createElement('img');
     roy.classList.add('roy');

@@ -282,4 +282,5 @@ button:hover {
     grid-column: 2;
     grid-row: 1;
     place-content: center;
+    text-align: center;
 }
