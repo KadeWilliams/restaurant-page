@@ -185,7 +185,6 @@ button {
     letter-spacing: .2rem;
     height: 100%;
     text-shadow: 1px 1px 1px #000000;
-
 }
 
 button:hover {
@@ -193,6 +192,7 @@ button:hover {
     /* color: #ff00d4; */
     color: rgb(0, 0, 0);
     background-color: #ff00d4;
+    text-shadow: none;
     /* background-color: rgba(255, 255, 255, 0.054); */
     /*, 0 0 .1em #044800ab;*/
 }
@@ -226,6 +226,7 @@ button:hover {
 .active-page {
     border-bottom: 5px solid #ff00d4;
     text-shadow: none;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .footer {
@@ -248,7 +249,7 @@ button:hover {
 .menuContent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
     /* place-items: center; */
     justify-items: center;
 }
@@ -288,4 +289,11 @@ button:hover {
     grid-row: 1;
     place-content: center;
     text-align: center;
+}
+
+.blank {
+    display: grid;
+    height: 300px;
+    grid-column: 1 /3;
+    grid-row: 1;
 }
