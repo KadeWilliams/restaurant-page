@@ -33,9 +33,14 @@ export default function menu() {
     content.removeChild(content.lastChild)
     const menuContent = document.createElement('div');
     menuContent.classList.add('menuContent')
+    const blankRow = document.createElement('div');
+    blankRow.classList.add('blank')
+    blankRow.innerHTML = '';
+    menuContent.appendChild(blankRow)
     // menuContent.innerHTML = 'THIS IS MENU';
     menuData.forEach(datum => menuContent.appendChild(createMenuItem(datum.item, datum.image, datum.price, datum.description)));
     // menuContent.appendChild(createMenuItem('pizza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aut nihil esse explicabo ea saepe non obcaecati aperiam. Cupiditate natus veritatis vero libero earum quibusdam? Eaque maxime similique quos aperiam.'));
+
     content.appendChild(menuContent)
 }
 
