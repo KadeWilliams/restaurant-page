@@ -17,7 +17,7 @@ export default function home() {
     // roy.style.borderRadius = '50%';
     roy.style.maxHeight = '600px';
     roy.style.maxWidth = '600px';
-    roy.src = 'src/roy_choi.jpeg';
+    roy.src = 'roy_choi.jpeg';
     homeContent.appendChild(welcome)
     homeContent.appendChild(roy)
     content.appendChild(homeContent);

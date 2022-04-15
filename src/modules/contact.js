@@ -21,7 +21,7 @@ export default function contact() {
     const mapImage = document.createElement('img');
     mapImage.style.maxHeight = '700px';
     mapImage.style.maxWidth = '700px';
-    mapImage.src = 'src/map.png'
+    mapImage.src = 'map.png'
 
     map.appendChild(mapImage)
     contactContent.appendChild(contactInfo)
