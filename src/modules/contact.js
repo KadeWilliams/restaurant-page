@@ -21,7 +21,7 @@ export default function contact() {
     const mapImage = document.createElement('img');
     mapImage.style.maxHeight = '700px';
     mapImage.style.maxWidth = '700px';
-    mapImage.src = '/Users/kade/Desktop/odin_project/restaurant-page/src/map.png'
+    mapImage.src = 'src/map.png'
 
     map.appendChild(mapImage)
     contactContent.appendChild(contactInfo)
