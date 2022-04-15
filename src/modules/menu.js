@@ -1,25 +1,25 @@
 const menuData = [
     {
         item: 'Kogi Tacos',
-        image: '/Users/kade/Desktop/odin_project/restaurant-page/src/tacos.png',
+        image: '../src/tacos.png',
         price: 14.99,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam! Quisquam porro eligendi, qui eum labore dolor beatae cumque, dolore maxime nisi voluptates enim commodi explicabo ea necessitatibus. Doloremque, recusandae.'
     },
     {
         item: 'Kimchi Fried Rice',
-        image: '/Users/kade/Desktop/odin_project/restaurant-page/src/kimchi_fried_rice.jpeg',
+        image: '../src/kimchi_fried_rice.jpeg',
         price: 12.99,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam! Quisquam porro eligendi, qui eum labore dolor beatae cumque, dolore maxime nisi voluptates enim commodi explicabo ea necessitatibus. Doloremque, recusandae.'
     },
     {
         item: 'Fried Chicken',
-        image: '/Users/kade/Desktop/odin_project/restaurant-page/src/fried_chicken.jpeg',
+        image: '../src/fried_chicken.jpeg',
         price: 16.99,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam! Quisquam porro eligendi, qui eum labore dolor beatae cumque, dolore maxime nisi voluptates enim commodi explicabo ea necessitatibus. Doloremque, recusandae.'
     },
     {
         item: 'Short Ribs',
-        image: '/Users/kade/Desktop/odin_project/restaurant-page/src/short_ribs.jpeg',
+        image: '../src/short_ribs.jpeg',
         price: 29.99,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam! Quisquam porro eligendi, qui eum labore dolor beatae cumque, dolore maxime nisi voluptates enim commodi explicabo ea necessitatibus. Doloremque, recusandae.'
     }
