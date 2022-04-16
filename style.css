@@ -270,6 +270,8 @@ button:hover {
     padding-top: 24px;
     padding-bottom: 24px;
     font-size: 3rem;
+    max-width: 600px;
+    max-height: 600px;
 }
 
 .roy {
@@ -277,6 +279,7 @@ button:hover {
     grid-row: 2;
     place-content: center;
     border-radius: 5%;
+    place-self: center;
 }
 
 .welcome {
