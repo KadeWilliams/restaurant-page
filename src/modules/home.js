@@ -15,8 +15,8 @@ export default function home() {
     const roy = document.createElement('img');
     roy.classList.add('roy');
     // roy.style.borderRadius = '50%';
-    roy.style.maxHeight = '600px';
-    roy.style.maxWidth = '600px';
+    // roy.style.maxHeight = '600px';
+    // roy.style.maxWidth = '600px';
     roy.src = 'roy_choi.jpeg';
     homeContent.appendChild(welcome)
     homeContent.appendChild(roy)
